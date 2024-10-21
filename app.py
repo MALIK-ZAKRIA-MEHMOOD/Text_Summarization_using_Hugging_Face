@@ -1,5 +1,4 @@
 import streamlit as st
-from transformers import pipeline
 
 # Load the summarization pipeline from Hugging Face
 summarizer = pipeline("summarization")
