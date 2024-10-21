@@ -1,8 +1,5 @@
 import streamlit as st
 
-# Load the summarization pipeline from Hugging Face
-summarizer = pipeline("summarization")
-
 # Set up the Streamlit app layout
 st.title("Text Summarization Using Hugging Face")
 st.markdown("### Enter the text you want to summarize:")
